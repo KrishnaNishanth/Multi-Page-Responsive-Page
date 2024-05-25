@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*Home*/
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+a{
+    font-weight: bold;
+}
+.nav-item:hover .nav-link {
+    color: #ffff;
+}
+.heading{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.line{
+    width: 100px;
+    height: 2px;
+    background-color: #ab112d;
+    margin: 20px auto;
+}
+p{
+    line-height: 2;
+    text-align: justify;
+}
+.content li{
+    line-height: 2;
+    text-align: justify;
+}
+.box{
+    background-color: rgb(248, 248, 150);
+}
+#button{
+    background-color: #ab112d;
+    color: #fff;
+}
+#button:hover{
+    background-color:palevioletred;
+}
+li{
+    list-style: none;
+}
+#icon1{
+    font-size: 2rem;
+    color: orange;
+}
+#icon2{
+    font-size: 2rem;
+    color: greenyellow;
+}
+#icon3{
+    font-size: 2rem;
+    color: palevioletred;
+}
+.footer{
+    background-color: #ab112d;
+    color: white;
+    text-align: center;
+}
+
+/*About*/
+
+.home-link,
+.no-link{
+    text-decoration: none;
+    color: black;
+}
+.home-link:hover{
+    text-decoration: underline;
+    color:rgb(43, 42, 42);
+}
+.no-link{
+    pointer-events: none;
+}
+.no-link::before{
+    content: "/";
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.bi-check-circle-fill {
+    font-size: 1.5rem;
+    color: lightskyblue;
+}
+
+/*Service*/
+
+#service{
+    background-color: aliceblue;
+    text-decoration: none;
+    color: rgb(231, 61, 118);
+}
+.img{
+    width: 330px !important;
+    height: 250px !important;
+}
+.service-link{
+    text-decoration: none;
+    color: rgb(231, 61, 118);
+}
+.service-link:hover{
+    text-decoration: underline;
+}
+.service-link::before{
+    content: "/";
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.bi-arrow-right-circle-fill{
+    font-size: 1.5rem;
+    color: lightskyblue;
+}
+
+/*Contact*/
+
+#icon-style{
+    font-size: 1.5rem;
+    color: #ab112d;
+}
+.link-style{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
